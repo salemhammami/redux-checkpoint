@@ -1,3 +1,4 @@
 export const ADDTASK = "ADDTASK"
 export const HANDLEDONE = "HANDLEDONE"
 export const HANDLEDELETE = "HANDLEDELETE"
+export const HANDLEEDIT = "HANDLEEDIT"

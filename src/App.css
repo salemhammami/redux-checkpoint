@@ -59,6 +59,16 @@
   padding: 20px;
   height: 2px;
  }
+
+ .searchStyle2{
+  border: none;
+  width: 243px;
+  border-radius: 50px;
+  padding: 20px;
+  height: 2px;
+  background-color: gb(206, 206, 206);
+ }
+
  ::placeholder {
   color: rgb(206, 206, 206);
   font-size: 15px;
@@ -123,3 +133,15 @@
 .btnD:hover{
   background-color: #e8e8e8;
 } 
+
+.btnEdit{
+  color:rgb(0, 0, 0);
+  border: none;
+  border: 2px solid #050505;
+  padding:10px 10px 10px 10px;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  border-radius:100%;
+
+}

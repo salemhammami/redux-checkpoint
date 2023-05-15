@@ -1,4 +1,4 @@
-import { ADDTASK, HANDLEDELETE, HANDLEDONE } from "./TypeActions"
+import { ADDTASK, HANDLEDELETE, HANDLEDONE,HANDLEEDIT } from "./TypeActions"
 
 export const addTask=(payload)=>{
     return(
@@ -24,5 +24,14 @@ export const handleDelete=(payload)=>{
         type:HANDLEDELETE,
         payload
     }
+    )
+}
+
+export const handleEdit=(payload)=>{
+    return(
+        {
+            type : HANDLEEDIT,
+            payload
+        }
     )
 }
